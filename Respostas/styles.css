@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    background-color: green;
+    padding: 20px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item {
+    font-size: 70px;
+    margin-left:50px;
+}
+
+.item2 {
+    margin-right: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.lista {
+    width: 45%;
+}
+.correta {
+    background-color: #28a745; /* Verde */
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.incorreta {
+    background-color: #dc3545; /* Vermelho */
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
